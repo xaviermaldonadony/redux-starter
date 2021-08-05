@@ -1,0 +1,9 @@
+-loading bugs
+	- if the exist in the cache
+		* they should come from the cache
+	- if they don't exist in the cache
+		* they should be fetched from the server
+		- loading indicator
+		* should be tru while fetching
+		* should be false after bugs are fetched
+		* shoud be false if the server fails
